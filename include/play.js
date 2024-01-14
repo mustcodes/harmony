@@ -90,7 +90,7 @@ module.exports = {
           collector.stop();
           playingMessage.reactions.removeAll();
           break;
-        case "🔁"://EMİRHANSARAÇ/CODARE
+        case "🔁":
           queue.loop = !queue.loop;
           queue.textChannel.send(`${user} 🔁 Döngü Başarıyla ${queue.loop ? "**Aktif**" : "**Devredışı**"} Hale Getirildi!`).catch(console.error);
 
@@ -98,7 +98,6 @@ module.exports = {
           break;
       }
     });
-//EMİRHANSARAÇ/CODARE
     collector.on("end", () => {
       playingMessage.reactions.removeAll();
     });
