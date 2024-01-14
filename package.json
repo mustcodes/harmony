@@ -1,9 +1,9 @@
 {
-  "name": "evobot",
-  "version": "0.3.2",
-  "description": "Discord music bot built with discord.js",
+  "name": "harmony",
+  "version": "0.9.12",
+    "description": "Harmony Music Bot by MustCodes",
   "main": "index.js",
-  "author": "Erit Islami <eritislami@gmail.com>",
+  "author": "Mustafa Arda Dusova",
   "private": true,
     "engines": { "node": "12.x" },
   "dependencies": {
