@@ -25,7 +25,6 @@
 								ctx.fillStyle = "white";
 								ctx.fillText("<%= guild.name.split(' ').map(v => v[0]).join('') %>", 40, 50);
 							};
-                     <!--  cODaRe -->
 							draw();
 						</script>
 					<% } %>
@@ -43,7 +42,6 @@
 						enabled = bot.appInfo.botPublic;
 					}
 					%> 
-                 <!--  cODaRe -->
 					<div align="center">
 						<a class="btn btn-primary btn-lg<% if(!enabled) { %> disabled<% } %>" role="button" href="<%= href %>"><%= text %> <i aria-hidden="true"></i></a>
 					</div>
